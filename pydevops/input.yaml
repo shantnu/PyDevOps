@@ -1,0 +1,8 @@
+python_ver: python3
+
+requirements file: req.txt
+
+
+apt-get installs:
+    - zip
+    - unzip

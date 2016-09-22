@@ -23,7 +23,7 @@ class Devops():
         self.__del__()
 
     def run_command(self, cmd):
-        stdin, stdout, stderr = self.ssh.exec_command(cmd)
+        stdin, stdout, stderr = self.ssh.exec_command(cmd, get_pty = True)
 
         out = stdout.read()
         err = stderr.read()
