@@ -2,7 +2,10 @@ python_ver: python3
 
 requirements file: req.txt
 
+env_name : myenv2
 
 apt-get installs:
     - zip
     - unzip
+
+server: "192.168.33.10"    
